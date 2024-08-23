@@ -30,7 +30,6 @@ languages.append("c+")
 print(languages[4])
 #insert an element into a list
 #syntax list_name.insert(index,element)
-
 print (languages[5])
 # we can remove an element from our list 
 # syntax list_name.remove(element)
@@ -44,4 +43,4 @@ print(new_languages[1])
 #exend the list to the original
 languages.extend(new_languages)
 print(len(languages))
-print(languages[6])
+print(languages)
